@@ -6,7 +6,7 @@ pathfindersettings:
   timestep: 0.02
   velocity: 47.27315     # in/sec
   acceleration: 50    # in/sec^2
-  jerk: 125           # in/sec^3
+  jerk: 150           # in/sec^3
   fitmethod: cubic
   samplerate: high
   wheelbasewidth: 24.5
@@ -32,7 +32,7 @@ reflines:
     orientation: horizontal
 - RedCargoShipLeftSide:
     x: 220.25
-    y: 90.87
+    y: 190.87
     length: 103.75
     orientation: horizontal
 - RedRightRocketBack:
@@ -56,43 +56,32 @@ reflines:
     x2: 238.75
     y2: 27.44
 paths:
-- LowerSide:
-    pathfindersettings:
-      fitmethod: cubic
+- MiddleTop:
     waypoints:
     - x: 85
-      y: 87.05
+      y: 162
       heading: 0
-    - x: 218
-      y: 126.13
+    - x: 123.5
+      y: 162
+      heading: 0
+    - x: 188
+      y: 176.435
+      heading: 0
+    - x: 206
+      y: 176.435
       heading: 0
 - MiddleBottom:
-    pathfindersettings:
-      fitmethod: cubic
     waypoints:
     - x: 85
       y: 162
       heading: 0
-    - x: 218
-      y: 126.13
-      heading: 0
-- MiddleTop:
-    pathfindersettings:
-      fitmethod: cubic
-    waypoints:
-    - x: 85
+    - x: 123.5
       y: 162
       heading: 0
-    - x: 218
-      y: 154.13
-      heading: 0
-- TopSide:
-    pathfindersettings:
-      fitmethod: cubic
-    waypoints:
-    - x: 85
-      y: 236.95
-      heading: 0
-    - x: 218
-      y: 154.13
-      heading: 0
+    - x: 188
+      y: 147.565
+      heading: -13
+    - x: 206
+      y: 143.565
+      heading: -10
+      
