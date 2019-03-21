@@ -9,29 +9,33 @@ pathfindersettings:
   jerk: 150           # in/sec^3
   fitmethod: cubic
   samplerate: high
-  wheelbasewidth: 24.5
+  wheelbasewidth: 28.5
   wheelbasedepth: 0
   drivetrain: tank
 measurements:
+- RCSFromDS: 220.25     # Red cargo ship front side from drive station wall
+- RCSFromNonST: 133.13     # Red cargo ship side from scoring table wall
+
+- RHLFromDS: 94.3
 angles:
 reflines:
-- RedCargoShipFront:
-    x: 220.25
-    y: 133.13
+- RCSFront:
+    x: RCSFromDS
+    y: RCSFromNonST
     length: 57.74
     orientation: vertical
-- RedHabLine:
-    x: 94.3
+- RHLine:
+    x: RHLFromDS
     y: 0
     length: 324
     orientation: vertical
-- RedCargoShipRightSide:
-    x: 220.25
-    y: 133.13
+- RCSRight:
+    x: RCSFromDS
+    y: RCSFromNonST
     length: 103.75
     orientation: horizontal
-- RedCargoShipLeftSide:
-    x: 220.25
+- RCSLeft:
+    x: RCSFromDS
     y: 190.87
     length: 103.75
     orientation: horizontal
@@ -56,7 +60,7 @@ reflines:
     x2: 238.75
     y2: 27.44
 paths:
-- MiddleTop:
+- Pos2R-i:
     waypoints:
     - x: 85
       y: 162
@@ -64,24 +68,32 @@ paths:
     - x: 123.5
       y: 162
       heading: 0
-    - x: 188
-      y: 176.435
-      heading: 0
-    - x: 206
-      y: 176.435
-      heading: 0
-- MiddleBottom:
+    - refline: RCSFront
+      distance: 17.5888
+      offset: -36
+      heading: match+
+    - refline: RCSFront
+      distance: 17.5888
+      offset: -12
+      heading: match+
+- Pos2R-ii:
     waypoints:
-    - x: 85
-      y: 162
-      heading: 0
-    - x: 123.5
-      y: 162
-      heading: 0
-    - x: 188
-      y: 147.565
-      heading: -13
-    - x: 206
-      y: 143.565
-      heading: -10
+    - refline: RCSFront
+      distance: 17.5888
+      offset: -12
+      heading: match+
+    - refline: RCSFront
+      distance: 17.5888
+      offset: 0
+      heading: match+
+- Pos2R-iii:
+    waypoints:
+    - refline: RCSFront
+      distance: 17.5888
+      offset: 0
+      heading: match-
+    - refline: RCSFront
+      distance: 17.5888
+      offset: -12
+      heading: match-
       
