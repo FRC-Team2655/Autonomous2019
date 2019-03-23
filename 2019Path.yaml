@@ -135,27 +135,27 @@ paths:
       y: 87.05
       heading: 0
     - refline: RCSRight
-      distance: 31.52
+      distance: 39.55
       offset: 12
       heading: match+
 - Pos3R-ii:
     waypoints:
     - refline: RCSRight
-      distance: 31.52
+      distance: 39.55
       offset: 12
       heading: match+
     - refline: RCSRight
-      distance: 31.52
+      distance: 39.55
       offset: 0
       heading: match+
 - Pos3R-iii:
     waypoints:
     - refline: RCSRight
-      distance: 31.52
+      distance: 39.55
       offset: 0
       heading: match-
     - refline: RCSRight
-      distance: 31.52
+      distance: 39.55
       offset: 12
       heading: match-
 - Pos1L-i:
@@ -167,25 +167,25 @@ paths:
       y: 236.95
       heading: 0
     - refline: RCSLeft
-      distance: 31.52
+      distance: 39.55
       offset: -12
       heading: match+
 - Pos1L-ii:
     waypoints:
     - refline: RCSLeft
-      distance: 31.52
+      distance: 39.55
       offset: -12
       heading: match+
     - refline: RCSLeft
-      distance: 31.52
+      distance: 39.55
       offset: 0
       heading: match+
 - Pos1L-iii:
     waypoints:
     - refline: RCSLeft
-      distance: 31.52
+      distance: 39.55
       offset: 0
       heading: match-
     - refline: RCSLeft
-      distance: 31.52
+      distance: 39.55
       heading: match-
