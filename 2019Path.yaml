@@ -66,31 +66,31 @@ paths:
       y: 162
       heading: 0
     - refline: RCSFront
-      distance: 21
+      distance: 19.5
       offset: -36
       heading: match+
     - refline: RCSFront
-      distance: 21
+      distance: 19.5
       offset: -12
       heading: match+
 - Pos2R-ii:
     waypoints:
     - refline: RCSFront
-      distance: 21
+      distance: 19.5
       offset: -12
       heading: match+
     - refline: RCSFront
-      distance: 21
+      distance: 19.5
       offset: 2
       heading: match+
 - Pos2R-iii:
     waypoints:
     - refline: RCSFront
-      distance: 21
+      distance: 19.5
       offset: 0
       heading: match-
     - refline: RCSFront
-      distance: 21
+      distance: 19.5
       offset: -12
       heading: match-
 - Pos2L-i:
