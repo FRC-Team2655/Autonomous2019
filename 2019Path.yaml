@@ -9,7 +9,7 @@ pathfindersettings:
   jerk: 150           # in/sec^3
   fitmethod: cubic
   samplerate: high
-  wheelbasewidth: 28.5
+  wheelbasewidth: 25
   wheelbasedepth: 0
   drivetrain: tank
 measurements:
@@ -189,3 +189,11 @@ paths:
     - refline: RCSLeft
       distance: 39.55
       heading: match-
+- TestPath:
+    waypoints:
+    - x: 0
+      y: 0
+      heading: 0
+    - x: 120
+      y: 60
+      heading: 0
