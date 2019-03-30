@@ -185,10 +185,11 @@ paths:
     - refline: RCSLeft
       distance: 39.55
       offset: 0
-      heading: match-
+      heading: match+
     - refline: RCSLeft
       distance: 39.55
-      heading: match-
+      offset: -12
+      heading: match+
 - TestPath:
     waypoints:
     - x: 0
