@@ -15,7 +15,6 @@ pathfindersettings:
 measurements:
 - RCSFromDS: 220.25     # Red cargo ship front side from drive station wall
 - RCSFromNonST: 133.13     # Red cargo ship side from scoring table wall
-
 - RHLFromDS: 94.3
 angles:
 reflines:
@@ -59,6 +58,26 @@ reflines:
     y1: 3.75
     x2: 238.75
     y2: 27.44
+- RedLeftRocketBack:
+    x1: 209.5
+    y1: 320.25
+    x2: 249
+    y2: 320.25
+- RedLeftRocketFront:
+    x1: 220.25
+    y1: 296.56
+    x2: 238.75
+    y2: 296.56
+- RedLeftRocketLeft:
+    x1: 209.5
+    y1: 320.25
+    x2: 220.25
+    y2: 296.56
+- RedLeftRocketRight:
+    x1: 249
+    y1: 320.25
+    x2: 238.75
+    y2: 296.56
 paths:
 - Pos2R-i:
     waypoints:
@@ -73,26 +92,6 @@ paths:
       distance: 19.5
       offset: -12
       heading: match+
-- Pos2R-ii:
-    waypoints:
-    - refline: RCSFront
-      distance: 19.5
-      offset: -12
-      heading: match+
-    - refline: RCSFront
-      distance: 19.5
-      offset: 2
-      heading: match+
-- Pos2R-iii:
-    waypoints:
-    - refline: RCSFront
-      distance: 19.5
-      offset: 0
-      heading: match-
-    - refline: RCSFront
-      distance: 19.5
-      offset: -12
-      heading: match-
 - Pos2L-i:
     waypoints:
     - x: 130
@@ -106,26 +105,6 @@ paths:
       distance: 39.74
       offset: -12
       heading: match+
-- Pos2L-ii:
-    waypoints:
-    - refline: RCSFront
-      distance: 39.74
-      offset: -12
-      heading: match+
-    - refline: RCSFront
-      distance: 39.74
-      offset: 2
-      heading: match+
-- Pos2L-iii:
-    waypoints:
-    - refline: RCSFront
-      distance: 39.74
-      offset: 0
-      heading: match-
-    - refline: RCSFront
-      distance: 39.74
-      offset: -12
-      heading: match-
 - Pos3R-i:
     waypoints:
     - x: 130
@@ -138,26 +117,6 @@ paths:
       distance: 39.55
       offset: 12
       heading: match+
-- Pos3R-ii:
-    waypoints:
-    - refline: RCSRight
-      distance: 39.55
-      offset: 12
-      heading: match+
-    - refline: RCSRight
-      distance: 39.55
-      offset: 0
-      heading: match+
-- Pos3R-iii:
-    waypoints:
-    - refline: RCSRight
-      distance: 39.55
-      offset: 0
-      heading: match-
-    - refline: RCSRight
-      distance: 39.55
-      offset: 12
-      heading: match-
 - Pos1L-i:
     waypoints:
     - x: 130
@@ -166,26 +125,6 @@ paths:
     - x: 200
       y: 236.95
       heading: 0
-    - refline: RCSLeft
-      distance: 39.55
-      offset: -12
-      heading: match+
-- Pos1L-ii:
-    waypoints:
-    - refline: RCSLeft
-      distance: 39.55
-      offset: -12
-      heading: match+
-    - refline: RCSLeft
-      distance: 39.55
-      offset: 0
-      heading: match+
-- Pos1L-iii:
-    waypoints:
-    - refline: RCSLeft
-      distance: 39.55
-      offset: 0
-      heading: match+
     - refline: RCSLeft
       distance: 39.55
       offset: -12
