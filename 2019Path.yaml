@@ -16,8 +16,13 @@ measurements:
 - RCSFromDS: 220.25     # Red cargo ship front side from drive station wall
 - RCSFromNonST: 133.13     # Red cargo ship side from scoring table wall
 - RHLFromDS: 94.3
+- RRRFrontFromDS: 220.25
+- RRRBackFromDS: 209.5
+- RocketFrontLen: 18.5
+- RocketBackLen: 39.5
 angles:
 reflines:
+# Red Cargo Ship
 - RCSFront:
     x: RCSFromDS
     y: RCSFromNonST
@@ -38,45 +43,55 @@ reflines:
     y: 190.87
     length: 103.75
     orientation: horizontal
+# Red Right Rocket
 - RedRightRocketBack:
-    x1: 209.5
+    x1: RRRBackFromDS
     y1: 3.75
-    x2: 249
+    x2: RRRBackFromDS
+    x2offset: 39.5
     y2: 3.75
 - RedRightRocketFront:
-    x1: 220.25
+    x1: RRRFrontFromDS
     y1: 27.44
-    x2: 238.75
+    x2: RRRFrontFromDS
+    x2offset: RocketFrontLen
     y2: 27.44
 - RedRightRocketLeft:
-    x1: 209.5
+    x1: RRRBackFromDS
     y1: 3.75
-    x2: 220.25
+    x2: RRRFrontFromDS
     y2: 27.44
 - RedRightRocketRight:
-    x1: 249
+    x1: RRRBackFromDS
+    x1offset: RocketBackLen
     y1: 3.75
-    x2: 238.75
+    x2: RRRFrontFromDS
+    x2offset: RocketFrontLen
     y2: 27.44
+# Red Left Rocket
 - RedLeftRocketBack:
-    x1: 209.5
+    x1: RRRBackFromDS
     y1: 320.25
-    x2: 249
+    x2: RRRBackFromDS
+    x2offset: 39.5
     y2: 320.25
 - RedLeftRocketFront:
-    x1: 220.25
+    x1: RRRFrontFromDS
     y1: 296.56
-    x2: 238.75
+    x2: RRRFrontFromDS
+    x2offset: RocketFrontLen
     y2: 296.56
 - RedLeftRocketLeft:
-    x1: 209.5
+    x1: RRRBackFromDS
     y1: 320.25
-    x2: 220.25
+    x2: RRRFrontFromDS
     y2: 296.56
 - RedLeftRocketRight:
-    x1: 249
+    x1: RRRBackFromDS
+    x1offset: RocketBackLen
     y1: 320.25
-    x2: 238.75
+    x2: RRRFrontFromDS
+    x2offset: RocketFrontLen
     y2: 296.56
 paths:
 - Pos2R-i:
