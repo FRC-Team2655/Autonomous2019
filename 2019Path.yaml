@@ -155,6 +155,16 @@ paths:
       distance: 13
       offset: 12
       heading: match+
+- Elim-i:
+    waypoints:
+    - x: 130
+      y: 87.05
+      heading: 0
+    - refline: RCSFront
+      distance: 17.07
+      offset: -12
+      heading: match+
+      headingoffset: -2.5
 - TestPath:
     waypoints:
     - x: 0
