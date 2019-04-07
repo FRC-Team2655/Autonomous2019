@@ -100,16 +100,17 @@ paths:
       y: 162
       heading: 0
     - refline: RCSFront
-      distance: 17.62
+      distance: 17.12
       offset: -12
       heading: match+
+      headingoffset: -2
 - Pos2L-i:
     waypoints:
     - x: 130
       y: 162
       heading: 0
     - refline: RCSFront
-      distance: 39.97
+      distance: 40.22
       offset: -12
       heading: match+
 - Pos3R-i:
