@@ -57,9 +57,9 @@ reflines:
     x2offset: RocketFrontLen
     y2: 27.44
 - RedRightRocketLeft:
-    x1: RRRBackFromDS
+    x1: RRRBackFromDS # 209.5
     y1: 3.75
-    x2: RRRFrontFromDS
+    x2: RRRFrontFromDS # 220.25
     y2: 27.44
 - RedRightRocketRight:
     x1: RRRBackFromDS
@@ -94,26 +94,26 @@ reflines:
     x2offset: RocketFrontLen
     y2: 296.56
 paths:
-- Pos2R-i:
+- Pos2R-CS-i:
     waypoints:
     - x: 130
       y: 162
       heading: 0
     - refline: RCSFront
-      distance: 17.12
+      distance: 17.07
       offset: -12
       heading: match+
-      headingoffset: -2
-- Pos2L-i:
+      headingoffset: -2.5
+- Pos2L-CS-i:
     waypoints:
     - x: 130
       y: 162
       heading: 0
     - refline: RCSFront
-      distance: 40.22
+      distance: 40.17
       offset: -12
       heading: match+
-- Pos3R-i:
+- Pos3R-CS-i:
     waypoints:
     - x: 130
       y: 87.05
@@ -125,7 +125,7 @@ paths:
       distance: 39.55
       offset: 12
       heading: match+
-- Pos1L-i:
+- Pos1L-CS-i:
     waypoints:
     - x: 130
       y: 236.95
@@ -136,6 +136,24 @@ paths:
     - refline: RCSLeft
       distance: 39.55
       offset: -12
+      heading: match+
+- Pos3-R-i:
+    waypoints:
+    - x: 130
+      y: 87.05
+      heading: 0
+    - refline: RedRightRocketLeft
+      distance: 13
+      offset: -12
+      heading: match+
+- Pos1-R-i:
+    waypoints:
+    - x: 130
+      y: 236.95
+      heading: 0
+    - refline: RedLeftRocketLeft
+      distance: 13
+      offset: 12
       heading: match+
 - TestPath:
     waypoints:
