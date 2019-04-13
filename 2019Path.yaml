@@ -20,8 +20,8 @@ measurements:
 - RRRBackFromDS: 209.5
 - RocketFrontLen: 18.5
 - RocketBackLen: 39.5
-- LeftFrontHatchDistance: 40.87
-- RightFrontHatchDistance: 17.82
+- LeftFrontHatchDistance: 42.12
+- RightFrontHatchDistance: 19.82
 angles:
 reflines:
 # Red Cargo Ship
@@ -98,21 +98,21 @@ reflines:
 paths:
 - Pos2-FrontRightCS:
     waypoints:
-    - x: 115
+    - x: 121
       y: 162
       heading: 0
     - refline: RCSFront
       distance: RightFrontHatchDistance
-      offset: -31
+      offset: -30
       heading: match+
 - Pos2-FrontLeftCS:
     waypoints:
-    - x: 115
+    - x: 121
       y: 162
       heading: 0
     - refline: RCSFront
       distance: LeftFrontHatchDistance
-      offset: -31
+      offset: -30
       heading: match+
 - Pos3-RightCS1:
     waypoints:
