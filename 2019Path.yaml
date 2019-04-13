@@ -4,9 +4,9 @@ width: 648
 height: 324
 pathfindersettings:
   timestep: 0.02
-  velocity: 47     # in/sec
-  acceleration: 200    # in/sec^2
-  jerk: 350           # in/sec^3
+  velocity: 156.77721     # in/sec
+  acceleration: 175.315931    # in/sec^2
+  jerk: 203.227138           # in/sec^3
   fitmethod: cubic
   samplerate: high
   wheelbasewidth: 25
@@ -103,7 +103,7 @@ paths:
       heading: 0
     - refline: RCSFront
       distance: RightFrontHatchDistance
-      offset: -30
+      offset: -28
       heading: match+
 - Pos2-FrontLeftCS:
     waypoints:
@@ -112,70 +112,70 @@ paths:
       heading: 0
     - refline: RCSFront
       distance: LeftFrontHatchDistance
-      offset: -30
+      offset: -28
       heading: match+
 - Pos3-RightCS1:
     waypoints:
-    - x: 130
+    - x: 121
       y: 114
       heading: 0
-    - x: 200
-      y: 87.5
+    - x: 210
+      y: 77.5
       heading: 0
     - refline: RCSRight
-      distance: 39.55
-      offset: 12
+      distance: 39
+      offset: 16
       heading: match+
 - Pos1-LeftCS1:
     waypoints:
-    - x: 130
+    - x: 121
       y: 210
       heading: 0
-    - x: 200
-      y: 236.5
+    - x: 210
+      y: 255
       heading: 0
     - refline: RCSLeft
-      distance: 39.55
-      offset: -12
+      distance: 38.8
+      offset: -32.5
       heading: match+
 - Pos3-Rocket:
     waypoints:
-    - x: 130
+    - x: 121
       y: 114
       heading: 0
     - refline: RedRightRocketLeft
-      distance: 13
-      offset: -12
+      distance: 10.3
+      offset: -33
       heading: match+
 - Pos1-Rocket:
     waypoints:
-    - x: 130
+    - x: 121
       y: 210
       heading: 0
     - refline: RedLeftRocketLeft
-      distance: 13
-      offset: 12
+      distance: 2
+      offset: 27
       heading: match+
 - Pos3-FrontRightCS:
     waypoints:
-    - x: 130
+    - x: 121
       y: 114
       heading: 0
     - refline: RCSFront
       distance: RightFrontHatchDistance
-      offset: -12
+      distanceoffset: -3
+      offset: -24
       heading: match+
-      headingoffset: -2.5
 - Pos1-FrontLeftCS:
     waypoints:
-    - x: 130
+    - x: 121
       y: 210
       heading: 0
     - refline: RCSFront
       distance: LeftFrontHatchDistance
-      offset: -12
+      distanceoffset: 5
+      offset: -22
       heading: match+
-      headingoffset: -2.5
 - TestPath:
     waypoints:
     - x: 0
