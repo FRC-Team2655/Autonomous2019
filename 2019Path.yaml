@@ -5,8 +5,8 @@ height: 324
 pathfindersettings:
   timestep: 0.02
   velocity: 47     # in/sec
-  acceleration: 100    # in/sec^2
-  jerk: 150           # in/sec^3
+  acceleration: 200    # in/sec^2
+  jerk: 350           # in/sec^3
   fitmethod: cubic
   samplerate: high
   wheelbasewidth: 25
@@ -21,7 +21,7 @@ measurements:
 - RocketFrontLen: 18.5
 - RocketBackLen: 39.5
 - LeftFrontHatchDistance: 40.87
-- RightFrontHatchDistance: 17.245
+- RightFrontHatchDistance: 17.82
 angles:
 reflines:
 # Red Cargo Ship
@@ -98,21 +98,21 @@ reflines:
 paths:
 - Pos2-FrontRightCS:
     waypoints:
-    - x: 130
+    - x: 115
       y: 162
       heading: 0
     - refline: RCSFront
       distance: RightFrontHatchDistance
-      offset: -12
+      offset: -31
       heading: match+
 - Pos2-FrontLeftCS:
     waypoints:
-    - x: 130
+    - x: 115
       y: 162
       heading: 0
     - refline: RCSFront
       distance: LeftFrontHatchDistance
-      offset: -12
+      offset: -31
       heading: match+
 - Pos3-RightCS1:
     waypoints:
@@ -179,11 +179,8 @@ paths:
 - TestPath:
     waypoints:
     - x: 0
-      y: 0
+      y: 60
       heading: 0
     - x: 120
       y: 0
-      heading: 0
-    - x: 180
-      y: 0
-      heading: 0
+      heading: 90
