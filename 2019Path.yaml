@@ -127,8 +127,8 @@ paths:
       y: 77.5
       heading: 0
     - refline: RCSRight
-      distance: 36.75
-      offset: 20
+      distance: 36.65
+      offset: 16
       heading: match+
 - Pos1-LeftCS1:
     pathfindersettings:
@@ -195,7 +195,7 @@ paths:
       offset: 31
       heading: 180
     - x: 87
-      y: 42.5
+      y: 44.5
       heading: 180
     - x: 31.5
       y: 44.5
@@ -222,8 +222,8 @@ paths:
       y: 36.5
       heading: 0
     - refline: RedRightRocketLeft
-      distance: 10
-      offset: -35
+      distance: 9
+      offset: -37
       heading: match+
 - TestPath:
     waypoints:
